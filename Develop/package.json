@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "node server/server.js",
-    "server": "nodemon server/server.js",
-    "build": "",
-    "install": "",
-    "client": ""
+   
+    "start": "cd server && npm start",
+    "client": "cd client && npm start",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "heroku-postbuild": "npm run build-client"
+    
   },
   "keywords": [],
   "author": "",
