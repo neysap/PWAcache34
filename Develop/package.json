@@ -1,15 +1,15 @@
 {
-  "name": "jate-develop",
+  "name": "JATE",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-      "start:dev": "concurrently \"npm run server\" \"npm run client\"",
-      "server": "nodemon ./server/server.js --ignore client",
-      "client": "cd client && npm start",
-      "build": "cd client && npm run build",
-      "install": "cd client && npm install"
-    
+    "start:dev": "",
+    "start": "",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,7 @@
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
   }
 }
