@@ -1,7 +1,4 @@
 # PWAcache34
-Sure, based on the information you've provided, here's a simple `README.md` template for your project:
-
----
 
 # JATE
 
